@@ -219,7 +219,7 @@ class JsonProcessor:
                     iters[idx] = iter(vals[idx])
                     curr[idx] = next(iters[idx])
             else:
-                # If all the iterators are exhausted, then no break occured
+                # If all the iterators are exhausted, then no break occurred
                 # In this case, we are finished iterating
                 break
 
